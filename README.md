@@ -238,10 +238,16 @@ Recommended deployment shape:
 
 Potential hosts include Render, Railway, Fly.io, Heroku, AWS, or Azure.
 
-Demo URLs:
+## Demo URLs
 
-- GitHub repository: _pending_
-- Live demo: _pending_
+### Live Application
+
+- **Patient Portal:** https://zealthy-emr-9u7d.onrender.com/
+- **Admin EMR:** https://zealthy-emr-9u7d.onrender.com/admin
+
+### Source Code
+
+- **GitHub Repository:** : https://github.com/koushikachappidi-3/zealthy-emr
 
 ## Security Considerations
 
