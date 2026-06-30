@@ -249,15 +249,6 @@ Potential hosts include Render, Railway, Fly.io, Heroku, AWS, or Azure.
 
 - **GitHub Repository:** : https://github.com/koushikachappidi-3/zealthy-emr
 
-## Security Considerations
-
-Security was intentionally kept minimal for this take-home assignment so the required EMR workflows could be completed clearly and reviewed quickly.
-
-- Plain-text passwords are used for demonstration only.
-- `/admin` does not require authentication, matching the assignment prompt.
-- JWT/session auth is not implemented.
-- RBAC is not implemented.
-- In production, passwords should be hashed with bcrypt, admin routes should require authentication, RBAC should be added, HTTPS should be enforced, and audit logging should be added.
 
 ## Screenshots
 
