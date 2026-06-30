@@ -234,9 +234,6 @@ function Login({ onLogin }) {
           <button className="button" type="submit">
             Log in
           </button>
-          <a className="button secondary" href="/admin">
-            Open Admin
-          </a>
         </div>
         {error && <div className="error">{error}</div>}
       </form>
