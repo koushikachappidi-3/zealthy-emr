@@ -30,7 +30,6 @@ Administrators can manage patients, appointments, and prescriptions. Patients ca
 - [Running Tests](#running-tests)
 - [API Endpoints](#api-endpoints)
 - [Deployment](#deployment)
-- [Security Considerations](#security-considerations)
 - [Screenshots](#screenshots)
 - [Future Improvements](#future-improvements)
 - [Author](#author)
@@ -85,7 +84,7 @@ Admin EMR:
 
 ```text
 No authentication required for this take-home assignment.
-Local URL: http://localhost:8001/admin
+Local URL: https://zealthy-emr-9u7d.onrender.com/admin
 ```
 
 ## Folder Structure
@@ -180,16 +179,36 @@ Open:
 
 ## Running Tests
 
+The project includes a comprehensive backend test suite built with **pytest**.
+
+### Run all tests
+
 ```bash
 cd server
+source venv/bin/activate
 pytest -v
+```
+
+### Run tests with code coverage
+
+```bash
 pytest -v --cov=. --cov-report=term-missing
 ```
 
-Current backend test status:
+### Current Test Status
 
-- 33 tests passing
-- 93% backend coverage
+- ✅ 33 automated backend tests
+- ✅ 93% backend code coverage
+
+The test suite includes:
+
+- Authentication tests
+- Patient CRUD tests
+- Appointment CRUD tests
+- Prescription CRUD tests
+- Dashboard/Summary endpoint tests
+- Medication and dosage option endpoint tests
+- Happy-path and negative test cases
 
 ## API Endpoints
 
