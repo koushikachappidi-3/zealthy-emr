@@ -133,15 +133,18 @@ lisa@some-email-provider.net / Password123!
 
 ## Backend Setup
 
-Create `server/.env`:
+Create a `server/.env` file with your PostgreSQL connection details:
 
 ```env
 DATABASE_NAME=zealthy_emr
-DATABASE_USER=your_postgres_user
-DATABASE_PASSWORD=
+DATABASE_USER=your_postgres_username
+DATABASE_PASSWORD=your_postgres_password
 DATABASE_HOST=localhost
 DATABASE_PORT=5432
 ```
+
+> **Note:** For local development, use your local PostgreSQL credentials.  
+> For deployment (e.g., Render), configure the database connection using the environment variables provided by your hosting platform.
 
 Install dependencies:
 
@@ -277,7 +280,8 @@ Potential hosts include Render, Railway, Fly.io, Heroku, AWS, or Azure.
 >
 > Patient login screen where seeded or admin-created patients authenticate using their email and password.
 
-![Patient Login](screenshots/01-patient-login.png)
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/3382e85b-1152-4fbf-becb-32913abf3b0f" />
+
 
 ---
 
@@ -287,7 +291,10 @@ Potential hosts include Render, Railway, Fly.io, Heroku, AWS, or Azure.
 >
 > Patient dashboard showing basic patient information, appointments in the next 7 days, and medication refills in the next 7 days.
 
-![Patient Dashboard](screenshots/02-patient-dashboard.png)
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/db0ce258-b9fc-4a8b-aeeb-678f11cf9932" />
+
+
+
 
 ---
 
@@ -297,7 +304,8 @@ Potential hosts include Render, Railway, Fly.io, Heroku, AWS, or Azure.
 >
 > Patient Portal Appointments tab showing the full upcoming appointment schedule up to 3 months.
 
-![Patient Appointments](screenshots/03-patient-appointments.png)
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/00cfd840-dcd9-468f-ac14-5aa8583b7ab9" />
+
 
 ---
 
@@ -307,7 +315,8 @@ Potential hosts include Render, Railway, Fly.io, Heroku, AWS, or Azure.
 >
 > Patient Portal Prescriptions tab showing all prescriptions for the logged-in patient.
 
-![Patient Prescriptions](screenshots/04-patient-prescriptions.png)
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/cd6fd8d9-18fc-4786-9565-20f93ca3e915" />
+
 
 ---
 
@@ -317,7 +326,8 @@ Potential hosts include Render, Railway, Fly.io, Heroku, AWS, or Azure.
 >
 > Admin EMR dashboard showing the patient table with at-a-glance appointment and prescription data.
 
-![Admin Dashboard](screenshots/05-admin-dashboard.png)
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/aa87b696-f6a2-4a50-90af-19ff1e9fddf3" />
+
 
 ---
 
@@ -327,7 +337,10 @@ Potential hosts include Render, Railway, Fly.io, Heroku, AWS, or Azure.
 >
 > Admin selected-patient workspace showing the Patient Info tab and update patient form.
 
-![Patient Management](screenshots/06-admin-patient-management.png)
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/94bb6bb7-8c0f-4b83-ba7b-5408c7ee356b" />
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/b4d410df-d475-42bb-a0f4-d8e9ab8f8a61" />
+
+
 
 ---
 
@@ -337,7 +350,8 @@ Potential hosts include Render, Railway, Fly.io, Heroku, AWS, or Azure.
 >
 > Admin selected-patient Appointments tab showing appointment list and create, edit, and delete controls.
 
-![Appointment Management](screenshots/07-admin-appointments.png)
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/3e65bab0-34fc-4569-bbea-03bc443c70d4" />
+
 
 ---
 
@@ -347,7 +361,8 @@ Potential hosts include Render, Railway, Fly.io, Heroku, AWS, or Azure.
 >
 > Admin selected-patient Prescriptions tab showing prescription list and create, edit, and delete controls.
 
-![Prescription Management](screenshots/08-admin-prescriptions.png)
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/0910b6a4-0cbe-4b35-89a4-abede6fd1302" />
+
 
 ---
 
