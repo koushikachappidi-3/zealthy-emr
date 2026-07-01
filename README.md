@@ -280,7 +280,8 @@ Potential hosts include Render, Railway, Fly.io, Heroku, AWS, or Azure.
 >
 > Patient login screen where seeded or admin-created patients authenticate using their email and password.
 
-<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/3382e85b-1152-4fbf-becb-32913abf3b0f" />
+<img width="1010" height="557" alt="image" src="https://github.com/user-attachments/assets/c88bd3e3-d497-465d-a24b-41ebe93e5ac9" />
+
 
 
 ---
@@ -290,8 +291,8 @@ Potential hosts include Render, Railway, Fly.io, Heroku, AWS, or Azure.
 > **Description**
 >
 > Patient dashboard showing basic patient information, appointments in the next 7 days, and medication refills in the next 7 days.
+<img width="994" height="547" alt="image" src="https://github.com/user-attachments/assets/6ef30946-1748-4a59-a175-a1cf6969e483" />
 
-<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/db0ce258-b9fc-4a8b-aeeb-678f11cf9932" />
 
 
 
@@ -304,7 +305,8 @@ Potential hosts include Render, Railway, Fly.io, Heroku, AWS, or Azure.
 >
 > Patient Portal Appointments tab showing the full upcoming appointment schedule up to 3 months.
 
-<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/00cfd840-dcd9-468f-ac14-5aa8583b7ab9" />
+<img width="997" height="555" alt="image" src="https://github.com/user-attachments/assets/6c6e069b-6d95-4c3a-8918-5efb6cafb389" />
+
 
 
 ---
@@ -315,7 +317,9 @@ Potential hosts include Render, Railway, Fly.io, Heroku, AWS, or Azure.
 >
 > Patient Portal Prescriptions tab showing all prescriptions for the logged-in patient.
 
-<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/cd6fd8d9-18fc-4786-9565-20f93ca3e915" />
+
+<img width="1003" height="545" alt="image" src="https://github.com/user-attachments/assets/3c342bb2-ea58-44dd-b7f3-b53cfa1f988c" />
+
 
 
 ---
@@ -326,7 +330,8 @@ Potential hosts include Render, Railway, Fly.io, Heroku, AWS, or Azure.
 >
 > Admin EMR dashboard showing the patient table with at-a-glance appointment and prescription data.
 
-<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/aa87b696-f6a2-4a50-90af-19ff1e9fddf3" />
+<img width="1002" height="553" alt="image" src="https://github.com/user-attachments/assets/eee9373e-84fa-4b58-b609-e7523bb55618" />
+
 
 
 ---
@@ -337,8 +342,10 @@ Potential hosts include Render, Railway, Fly.io, Heroku, AWS, or Azure.
 >
 > Admin selected-patient workspace showing the Patient Info tab and update patient form.
 
-<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/94bb6bb7-8c0f-4b83-ba7b-5408c7ee356b" />
-<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/b4d410df-d475-42bb-a0f4-d8e9ab8f8a61" />
+<img width="1006" height="550" alt="image" src="https://github.com/user-attachments/assets/94502411-4559-43f6-9cdb-c8a86576d00a" />
+<img width="1005" height="542" alt="image" src="https://github.com/user-attachments/assets/7740beec-19ed-46a8-ad5a-b0ae9501b589" />
+
+
 
 
 
@@ -350,7 +357,8 @@ Potential hosts include Render, Railway, Fly.io, Heroku, AWS, or Azure.
 >
 > Admin selected-patient Appointments tab showing appointment list and create, edit, and delete controls.
 
-<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/3e65bab0-34fc-4569-bbea-03bc443c70d4" />
+<img width="1007" height="559" alt="image" src="https://github.com/user-attachments/assets/39389044-71b2-4f75-9435-e3ef223dc5b1" />
+
 
 
 ---
@@ -360,8 +368,8 @@ Potential hosts include Render, Railway, Fly.io, Heroku, AWS, or Azure.
 > **Description**
 >
 > Admin selected-patient Prescriptions tab showing prescription list and create, edit, and delete controls.
+<img width="997" height="553" alt="image" src="https://github.com/user-attachments/assets/bdb28521-957f-4d36-acfb-71e04808aef5" />
 
-<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/0910b6a4-0cbe-4b35-89a4-abede6fd1302" />
 
 
 ---
@@ -372,7 +380,8 @@ Potential hosts include Render, Railway, Fly.io, Heroku, AWS, or Azure.
 >
 > FastAPI Swagger documentation at `/docs` showing the available backend API endpoints.
 
-![FastAPI Swagger API Docs](screenshots/09-swagger-api.png)
+<img width="1280" height="2701" alt="image" src="https://github.com/user-attachments/assets/f3ce57bb-42d1-4eab-8555-f1d8e1eb29b4" />
+
 
 ---
 
@@ -382,7 +391,8 @@ Potential hosts include Render, Railway, Fly.io, Heroku, AWS, or Azure.
 >
 > Terminal output showing pytest coverage with 33 passing tests and 93% backend coverage.
 
-![Backend Test Suite / Coverage](screenshots/10-tests-coverage.png)
+<img width="1280" height="1328" alt="image" src="https://github.com/user-attachments/assets/997eac04-0155-4403-906d-ad0eed8fe77e" />
+
 
 ## Future Improvements
 
@@ -392,8 +402,6 @@ Potential hosts include Render, Railway, Fly.io, Heroku, AWS, or Azure.
 - audit logging
 - HTTPS
 - CI/CD
-- cloud deployment
-- Docker
 - pagination/filtering
 
 ## Author
